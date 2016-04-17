@@ -8,12 +8,10 @@
 
 # READING THE BELOW LINE IS PROBABLY IMPORTANT 
 
-```
-.bash_profile may need to be replaced with your profiles filename, sometimes it is also .bashrc 
-```
-
+* `.bash_profile` may need to be replaced with your profiles filename, sometimes it is also `.bashrc`
 
 # HOW TO APPLY A SINGLE RECIPE 
+
 ```
 # $desired_recipe_file is the name of the recipe file you wish to include
 $ echo "source $desired_recipe_file >> $HOME/.bash_profile"
